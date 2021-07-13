@@ -6,7 +6,6 @@ build
 # Visual Studio
 *.sln
 *.ncb
-*.vcproj
 *.vcxproj.user
 *.VC.db
 *.VC.db-shm
@@ -54,7 +53,6 @@ test/readlinetest*
 # Python
 __pycache__
 *.log
-*.vcxproj
 *.filters
 *.tlog
 Assimp.sdf
