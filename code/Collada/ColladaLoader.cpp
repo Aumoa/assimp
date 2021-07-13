@@ -1854,7 +1854,7 @@ void ColladaLoader::ConvertPath(aiString& ss)
 
     // adjust length and terminator of the shortened string
     *out = 0;
-    ss.length = (ptrdiff_t)(out - ss.data);
+    ss.length = (ai_uint32)(ptrdiff_t)(out - ss.data);
 }
 
 // ------------------------------------------------------------------------------------------------
